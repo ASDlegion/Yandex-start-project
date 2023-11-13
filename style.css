@@ -276,7 +276,6 @@ footer .nav-link {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
     flex: 1 0 0;
 }
 
@@ -286,7 +285,7 @@ footer .nav-link {
     width: 100%;
     font-size: 1.4vw;
     border-bottom: 1px black solid;
-    padding: 0  0 24px 0;
+    padding: 1.7vw  0 1.7vw 0;
 }
 
 @media screen and (max-width: 1180px)  {
