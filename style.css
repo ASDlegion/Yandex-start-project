@@ -127,6 +127,11 @@ h1 {
     max-width: 364px;
     border-radius: 12px;
     background: white;
+
+    transition: margin 0.5s ease-out;
+    -webkit-transition: margin 0.5s ease-out;
+        -moz-transition: margin 0.5s ease-out;
+        -o-transition: margin 0.5s ease-out;
 }
 
 .sneaker-image {
@@ -353,6 +358,7 @@ footer .nav-link {
     -webkit-box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
            -moz-box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
                 	box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
+    margin-top: -10px;
 }
 
 @media screen and (max-width: 769px) {
