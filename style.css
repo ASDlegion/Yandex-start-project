@@ -211,7 +211,7 @@ footer .nav-link {
     padding: 3.3vw;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 2.2vw;
 
     border-radius: 50px;
     background: #FFF;
@@ -232,7 +232,7 @@ footer .nav-link {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.7vw;
     align-self: stretch;
 }
 
@@ -258,7 +258,7 @@ footer .nav-link {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 32px;
+    gap: 2.2vw;
     align-self: stretch;
 }
 
@@ -302,7 +302,6 @@ footer .nav-link {
         margin-top: 14px;
         align-self: center;
     }
-
 
 }
 
@@ -353,5 +352,15 @@ footer .nav-link {
 .sneaker:hover{
     -webkit-box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
            -moz-box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
-                box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
+                	box-shadow: 15px 15px 45px 14px rgba(69, 69, 69, 0.12);
+}
+
+@media screen and (max-width: 769px) {
+    .sneaker__big-additional-info {
+        display: block;
+    }
+
+    .sneaker__big {
+        padding: 24px;
+    }
 }
